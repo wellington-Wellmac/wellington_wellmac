@@ -45,7 +45,7 @@ html {
 }
 
 body {
-  margin: var(--header-height) 0 0 0;
+  margin: var(--header-height) 2 2 8;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   color: var(--second-color);
@@ -112,7 +112,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: rgb(81, 120, 228);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -399,7 +399,7 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: rgb(9, 167, 62);
   margin: 0 var(--mb-2);
 }
 

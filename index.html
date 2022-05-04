@@ -4,13 +4,14 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="assets/css/styles.css">
-
+        
+    
         <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Portfolio website complete</title>
+        <title>Wellington Wellmac Full Stack Developer</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -70,7 +71,7 @@
 
                 <div class="about__container bd-grid">
                     <div class="about__img">
-                        <img src="assets/img/wellmac_1.png" alt="">
+                        <img src="assets/img/wellmac.jpg" alt="">
                     </div>
                     
                     <div>
@@ -92,7 +93,8 @@
                             Angular, React, Ionic..<br>
                             -Database: MySql, PostgreSql, Dbeaver, JPA..<br>
                             – API and Tests: Postman, Junit, Selenium.</p>
-                            <a href="Currículo - Desenvolvedor Full stack - Wellington Machado (Wellmac).pdf" target="_blank" class="btn" >Download CV</a>
+                            <a href="../assets/cv_wellington_wellmac.pdf" target="_blank" class="btn" >Download CV(Portuguese)</a><br>
+                            <a href="../assets/cv_dev_wellington_machado.pdf" target="_blank" class="btn" >Download CV(English)</a>
                     </div>
                     
                     <div>              
@@ -132,11 +134,11 @@
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contact</h2>
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form"><img src="assets/img/wellmac.jpg" alt="">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="E-mail" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="to send" class="contact__button button">
+                    <form action="mailto:dev.wellmac@gmail.com" method="post" enctype="text/plain" class="contact__form"/>
+                        <input type="text" placeholder="Name" class="contact__input" required>
+                        <input type="mail" placeholder="E-mail" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input" required></textarea><input type="reset" value="clean"/>
+                        <input type="submit" value="to send" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -145,19 +147,22 @@
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">Wellington Wellmac</p><br>
-            <li><i class='bx bx-mail-send'></i>
-                <p><strong>Email: </strong>dev.wellmac@gmail.com</p>
-            </li>
             <li><i class='bx bxs-phone-call'></i>
-                <p><strong>Phone: </strong>+055 61 99107-1342</p>
+                <p><strong>Phone: <a href="https://web.whatsapp.com/send?phone=55991071342" target="_blank" style="color: brown;">055 61 991071342
+                <i class="fa fa-whatsapp" style="color: aqua;"></i></p>
             </li>
+            
+            </a>
+           
+
             <br>
             <!--<div class="footer__social">
                 <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
                 <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
             </div>-->
-            <p class="footer__copy">&#169; © Copyright. Wellington Wellmac    All rigths reserved </p>
+            <br>
+            <p class="footer__copy" style="color: antiquewhite;">&#169; Copyright 2022. All rigths reserved  Wellington Wellmac</p>
         </footer>
 
 
